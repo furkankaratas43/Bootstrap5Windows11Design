@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="desktop">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="MenuOffcanvas" aria-labelledby="MenuOffcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="MenuOffcanvasLabel">Menü</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                </div>
+            </div>
+            <div class="desktop-area">
+
+            </div>
+        </div>
+        <div id="taskbar">
+            <nav class="align-items-center justify-content-center ">
+                <button class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/windows.png" class="position-relative">
+                    </span>
+                </button>
+                <button class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/desktop.png" class="position-relative">
+                    </span>
+                </button>
+                <button class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/computer-dark.png" class="position-relative">
+                    </span>
+                </button>
+                <button class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/edge.png" class="position-relative">
+                    </span>
+                </button>
+                <button class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/folder.png" class="position-relative">
+                    </span>
+                </button>
+                <button data-bs-toggle="offcanvas" href="#MenuOffcanvas" role="button" aria-controls="MenuOffcanvas" class="taskbar-btn">
+                    <span class="taskbar-icon">
+                        <img src="assets/media/icons/store.png" class="position-relative">
+                    </span>
+                </button>
+            </nav>
+        </div>
+    </div>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/js/main.bundle.js"></script>
+</body>
+
+</html>
